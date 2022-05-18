@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+:root{
+	--color-negro:#1b1e20;
+	--color-numeros:#ecf1f3;
+	--color-general:#5f727f;
+	--color-border:#dfe5e8;
+	--color-Fondofooter: #222528;
+	--color-letrafooter: #99a9b5;
+	
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: var(--color-texto);
+}
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: var(--color-general);
+}
+header{
+    background-color: transparent;
+	position: absolute;
+	width: 100%;
+	border-bottom: 1px solid #525252;
+}
+header img{
+	width: 120px;
+}
+.section{
+	padding:10% 0;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+
+}
+
+#hero{
+	background-image: url("../img/bg-hero.png");
+	background-position: top center;
+	background-size: cover;
+	text-align: center;
+}
+#hero h1{
+	font-size: 7.5em;
+	font-weight: 700;
+	align-content: center;
+}
+
+#hero h4{
+	font-size: 10px;
+	letter-spacing: 6px;
+	font-weight: 800;
+}
+#hero h1,#hero h4{
+	color: #ecf1f3;
+}
+.circulo-about{
+	background-color: #16B7E8 ;
+	border-radius: 100%;
+	text-align: center;
+	width: 10px;
+	height: 10px;
+	line-height: 15px;
+	margin-left: 150px;
+}
+
+.overlay{
+	padding: 10% 0;
+	height: 100vh;
+}
+
+.blue{
+	border-radius: 0;
+	border: 3px solid #16B7E8;
+	padding: 10px 20px !important;
+	font-size: 15px;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: #16B7E8;
+}
+
+
+.titulo{
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 30px;
+	color: var(--color-negro);
+}
+.titulo::after{
+	content: '';
+	display: block;
+	border-bottom: 3px solid #16B7E8;
+	width: 70px;
+	margin: 20px auto;
+}
+.subtitle{
+	text-align: center;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-size: 15px;
+	font-weight: 700;
+	letter-spacing: 6px;
+	color: var(--color-negro);
+}
+
+.numeros{
+	font-size: 100px;
+	color: var(--color-numeros);
+	font-weight: 700;
+}
+#about h5{
+	font-size: 20px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+#about p{
+	padding-bottom: 20px;
+}
+#numbers{
+	background-image: url("../img/bg-counter.png");
+	background-size: cover;
+}
+#numbers i{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border-radius: 100%;
+	font-size: 60px;
+	margin: 40px 0;
+	color: #ecf1f3;
+}
+.bg-blue{
+	background-color: #16B7E8;
+}
+#numbers h3{
+	font-size: 40px;
+	font-weight: 700;
+	color: #ecf1f3;
+}
+#numbers h4{ 
+	font-size: 20px;
+	font-weight: 300;
+	color: #ecf1f3;
+}
+.row{
+	padding-top: 80px;
+}
+.team-card{
+	border: 1px solid #dfe5e8;
+	padding: 25px 30px;
+	border-radius: 15px;
+}
+.team-card img{
+	border-radius: 100%;
+	margin-bottom: 25px;
+	padding-top: 20px;
+}
+.names{
+	font-size: 20px;
+	font-weight: 300;
+	padding-bottom: 20px;
+}
+#foot{
+	background-color: var(--color-Fondofooter);
+}
+#foot h3{
+	font-size: 19px;
+	color: var(--color-letrafooter);
+	font-weight: 300;
+	padding-top: 30px;
+}
+footer{
+	background-color:#1b1e20 ;
+	padding: 30px 0;
+	text-align: center;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
